@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+
+<form>
+Password <input type="password" id="user_id" class="pswrd">
+    <input type="checkbox" onchange= "document.getElementById('user_id').type= this.checked ? 'text' : 'password' ">
+  
+    Show password
+<br>
+Password <input  type="password" id="password" class="pswrd"   >
+
+<input type="checkbox" onchange= "document.getElementById('password').type= this.checked ? 'text' : 'password' ">
+Show password <br/>
+
+</form>
+
+
+</body>
+</html>
